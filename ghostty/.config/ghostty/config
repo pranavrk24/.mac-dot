@@ -1,14 +1,5 @@
-font-family = FiraCode Nerd Font
-font-family-italic = Maple Mono NF
-
 font-size = 14
 font-thicken = true
-
-font-feature = zero
-font-feature = cv02
-font-feature = ss02
-font-feature = ss03
-font-feature = ss05
 
 window-inherit-font-size = true
 
@@ -16,7 +7,7 @@ mouse-hide-while-typing = true
 
 theme = Kanagawabones
 
-# background-opacity = 0.95
+background-opacity = 0.90
 
 # window-theme = "ghostty"
 # window-save-state = "always"
@@ -25,7 +16,25 @@ theme = Kanagawabones
 shell-integration-features = "cursor,sudo"
 copy-on-select = true
 
+## Reload config
 keybind = super+shift+r=reload_config
 
-keybind = super+shift+c=copy_to_clipboard
-keybind = super+shift+v=paste_from_clipboard
+## Tabs
+keybind = ctrl+space>c=new_tab
+keybind = ctrl+space>n=next_tab
+keybind = ctrl+space>p=previous_tab
+
+keybind = super+shift+comma=move_tab:-1
+keybind = super+shift+period=move_tab:1
+keybind = super+shift+m=toggle_split_zoom
+
+## Splits
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+l=goto_split:right
+keybind = ctrl+space>enter=new_split:auto
+
+## Clipboard
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard

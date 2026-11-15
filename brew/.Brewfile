@@ -1,5 +1,8 @@
 tap "anomalyco/tap"
+tap "anyzig/tap"
 tap "nikitabobko/tap"
+# Universal zig executable that runs any version of zig
+brew "anyzig"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
@@ -40,9 +43,9 @@ brew "anomalyco/tap/opencode", trusted: true
 cask "nikitabobko/tap/aerospace", trusted: true
 # Memory training application
 cask "anki"
+cask "font-jetbrains-mono"
 cask "font-maple-mono-nf"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # System monitor for the menu bar
 cask "stats"
-npm "corepack"
