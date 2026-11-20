@@ -20,9 +20,9 @@ copy-on-select = true
 keybind = super+shift+r=reload_config
 
 ## Tabs
-keybind = ctrl+space>c=new_tab
-keybind = ctrl+space>n=next_tab
-keybind = ctrl+space>p=previous_tab
+keybind = ctrl+;>c=new_tab
+keybind = ctrl+;>n=next_tab
+keybind = ctrl+;>p=previous_tab
 
 keybind = super+shift+comma=move_tab:-1
 keybind = super+shift+period=move_tab:1

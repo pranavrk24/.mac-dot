@@ -11,6 +11,12 @@ brew "btop"
 brew "eza"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
 # GNU Privacy Guard (OpenPGP)
@@ -21,6 +27,8 @@ brew "helix"
 brew "jj"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Media player based on MPlayer and mplayer2
+brew "mpv"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Manage multiple Node.js versions
@@ -47,5 +55,8 @@ cask "font-jetbrains-mono"
 cask "font-maple-mono-nf"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Open-source software for live streaming and screen recording
+cask "obs"
 # System monitor for the menu bar
 cask "stats"
+npm "corepack"
